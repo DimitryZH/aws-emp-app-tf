@@ -14,6 +14,8 @@ This Terraform project sets up a scalable and secure infrastructure for an emplo
 - Load balancer for traffic distribution
 - Auto Scaling group for high availability
 
+![emp-app-diagram](https://github.com/user-attachments/assets/507ce275-51cc-4b47-b03d-6ed316cde05a)
+
 ## Key Features
 
 - **Infrastructure as Code**: Entire AWS infrastructure defined and versioned in Terraform
@@ -33,7 +35,7 @@ To use this Terraform configuration, follow these steps:
 2. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/your-username/aws-emp-app-tf.git
+   git clone https://github.com/DimitryZH/aws-emp-app-tf
    cd aws-emp-app-tf
    ```
 
@@ -62,9 +64,13 @@ To use this Terraform configuration, follow these steps:
    Review the planned changes again and type 'yes' when prompted to create/modify the resources.
 
 6. **Verify the deployment**:
-   After successful application, verify that your resources have been created in the AWS Console.
+   After successful application,
+   
+![apply-result](https://github.com/user-attachments/assets/97d3c101-1b6a-4f84-a8de-63a429b9e082)
 
-7. **Clean up resources** (when no longer needed):
+verify that your resources have been created in the AWS Console.
+   
+8. **Clean up resources** (when no longer needed):
    ```sh
    terraform destroy
    ```
