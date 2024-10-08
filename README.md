@@ -1,4 +1,5 @@
-# AWS Employee Application Terraform Project
+# AWS Employee Directory Application with Terraform Automation
+
 
 This repository contains Terraform configurations for deploying and managing an employee management application infrastructure on Amazon Web Services (AWS). The project demonstrates best practices in Infrastructure as Code (IaC) and cloud resource management using Terraform. For more details on the AWS Employee Directory App, visit [AWS Employee Directory App](https://github.com/DimitryZH/aws-emp-app).
 
